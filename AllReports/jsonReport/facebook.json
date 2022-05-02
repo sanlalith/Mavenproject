@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-27T16:28:30.804Z",
+        "line": 3,
+        "name": "To validate login by using valid email and invalid pass",
+        "description": "",
+        "id": "to-validate-login-functionality-in-fb-application;to-validate-login-by-using-valid-email-and-invalid-pass",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4079800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to enter FB Login page",
+            "match": {
+              "location": "stepDefinition.user_have_to_enter_FB_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to enter valid email and invalid password",
+            "match": {
+              "location": "stepDefinition.user_have_to_enter_valid_email_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1132800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to click login button",
+            "match": {
+              "location": "stepDefinition.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 842100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to be in invalid credential page.",
+            "match": {
+              "location": "stepDefinition.user_have_to_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality in FB application",
+    "description": "",
+    "id": "to-validate-login-functionality-in-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login1.feature",
+    "tags": []
+  }
+]
